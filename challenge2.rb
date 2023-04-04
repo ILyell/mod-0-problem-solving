@@ -2,7 +2,7 @@
 # 2. An array of strings
 # 3. None yet
 # 4. Create array[], array.each do |string|, p string.lowercase
-# 5. None yet
+# 5. ruby docs, .downcase not .lowercase
 # Code:
 
 # Create array of strings
