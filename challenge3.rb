@@ -8,5 +8,5 @@
 words = ["tim", "Tom", "Mike", "mitch", "telephone", "talk"]
 
 words.each do |word|
-    if word.start_with?("t"); p word end
+    p word if word.start_with?("t")
 end

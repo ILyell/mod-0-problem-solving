@@ -9,5 +9,5 @@ words = ["Data", "goal", "memory", "basket", "hope"]
 
 # Iterate over array for length of each word.
 words.each do |word|
-    if word.length == 4; p word end
+    p word if word.length == 4
 end

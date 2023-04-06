@@ -9,6 +9,6 @@
 words = ["Carving", "Going", "Ruin", 'Fighting', "laundry"]
 # each - do iteration to print words with ing
 words.each do |word|
-    if word.include?("ing"); p word end
+    p word if word.include?("ing")
 end
 # 7. .include?("") not .includes?(""), No plurals in methods!
